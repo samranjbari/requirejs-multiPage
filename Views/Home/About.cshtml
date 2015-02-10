@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+<h2>About</h2>
+
+
+@section scripts {
+    
+    <script type="text/javascript">
+        require(['/app/app.js'], function(app) {
+            app.run('views/about')
+        });
+    </script>
+    
+}
